@@ -35,8 +35,12 @@
 			data: {
 				opacity: 1,
 				rehearsals: [
-					{title: '12.01.18', file: 'reh-120118'}
+					{title: '12.01.18', file: 'reh-120118'},
+					{title: '02.13.19', file: 'reh-021319'},
 				]
+			},
+			created: function(){
+				this.rehearsals = this.rehearsals.reverse()
 			}
 		});
 	</script>
